@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Adarsh Sharad Pandey - Portfolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: 'Poppins', sans-serif;
+            }
+            body{
+                background-color: rgb(4, 4, 85);
+                color: white;
+            }
+            nav{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                height: 50px;
+                background-color: rgb(231, 47, 231);
+            }
+            nav ul{
+                display: flex;
+                justify-content: center;
+            }
+            nav ul li{
+                list-style: none;
+                margin: 0 23px;
+            }
+            .firstSection{
+                display: flex;
+                justify-content: space-around;
+                margin: 80px 0;
+                align-items: center;
+            }
+            .firstSection > div{
+                width: 30%;
+            }
+            .leftSection{
+                font-size: 2rem;
+            }
+            .rightSection img{ 
+                width: 100%;
+            }
+            .purple{
+                color: blueviolet;
+            }
+            nav ul li a{
+                text-decoration: none;
+                color: white;
+            }
+            nav ul li a:hover{
+                text-decoration: none;
+                color: rgb(151, 6, 151);
+                font-size: 1.01rem;
+            }
+            #element{
+                color: blueviolet;
+            }
+            footer{
+                background-color: #0e0e1a;
+                height: 233 px;;
+            }
+            .footer{
+                display: flex;
+                padding: 23px 10px;
+                justify-content: center;
+            }
+            .footer ul{
+                list-style: none;
+            }
+            .adarshImg{
+                width: 100%;
+                padding: 30px;
+            }
+            #secondSection{
+                display: flex;
+                justify-content: space-between;
+                margin: 80px 0;
+                align-items: center;
+            }
+            #projectSection{
+                display: flex;
+                justify-content: space-between;
+                margin: 80px 50px;
+                align-items: center;
+            }
+            .rightSectionTwo{
+                margin: auto;
+                width: 70%;
+                padding: 10px;
+                margin-right: 50px;
+                
+            }
+            .rightSectionTwo p{
+                text-align: justify;
+                margin-right: 20px;
+            }
+            .leftSectionTwo
+            {
+                margin: auto;
+                width: 30%;
+                margin-left: 100px;
+                padding: 10 px;
+                align-content: center;
+            }
+            .leftSectionTwo img
+            {
+                width: 60%;
+                margin-left: 50px;
+            }
+            .cen{
+                text-align: center;
+            }
+            #projectSection .card
+            {
+                width: 20%;
+                min-height: 200px;
+                background-color: rgb(156, 156, 240);
+            }
+            .abcd{
+                color: rgb(201, 87, 201);
+            }
+            .skillSection{
+                display: flex;
+                justify-content: space-between;
+                margin: 80px 50px;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="left">
+                    <h2>Adarsh Sharad Pandey</h2>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><a href="#first">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#education">Education</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="firstSection" id="first">
+                <div class="leftSection">
+                    Hi, My name is <span class="purple"> Adarsh</span>
+                    <div>and I am a passionate </div>
+                    <span id="element"></span>
+                </div>
+                <div class="rightSection"> 
+                    <img src="images/bg.png" alt="developerImage">
+                </div>
+            </section>
+            <h1 class="cen" id="about"><u><i><b>About</b></i></u></h1>
+                <br> <br>
+            <section id="secondSection">
+                <div class="card" style="width: 15rem; background-color: rgb(156, 156, 240); margin: 50px;">
+                    <img class="card-img-top" src="images/adarsh.jpg" alt="Adarsh Image">
+                    <div class="card-body">
+                      <h4 class="card-title" style="color: rgb(138, 9, 138);">Adarsh Sharad Pandey</h4>
+                      <p class="card-text" style="color: rgb(138, 9, 138);">Web Developer and Programmer</p>
+                      <a href="https://drive.google.com/file/d/1_digLcn1zZhuvlvLob-AEDF7dJ51stDy/view?usp=sharing" class="btn btn-primary">View Resume</a>
+                    </div>
+                </div>
+                <div class="rightSectionTwo"> 
+                    <p>
+                        "Hello, I'm Adarsh Sharad Pandey, a passionate programmer and web developer dedicated to crafting
+                        seamless digital experiences. With a solid foundation in Computer Science Engineering from GL Bajaj Institute of
+                        Technology and Management, I thrive on utilizing my skill set that includes proficiency in languages such as
+                        <b class="abcd"><i>C++, HTML, CSS, JavaScript</i></b> and frameworks like <b class="abcd"> <i>Bootstrap, React.js, Node.js</i></b>. 
+                        I take pride in writing clean and efficient code and staying on the cutting edge of technology trends. I look forward to contributing my 
+                        expertise and creativity to innovative projects and continuing my journey of growth in the dynamic field
+                        of Web Development. Beside web development, I enjoy solving problems based on <b class="abcd"><i>Data Structures and Algorithms</i></b>.
+                        I have secured good ranks in many Coding Competions and have solved various number of questions on different
+                        coding platforms like Leetcode, GeeksforGeeks, etc. I have also interest in <b class="abcd"><i>mentoring</i></b> and <b class="abcd"><i>teaching</i></b> Data Structures
+                        and Algorithms. With my friends and juniors, I have always been good in making them understand the concepts and questions in Coding, Data Structures and Algorithms."
+                    </p>
+                </div>
+            </section>
+            <h1 class="cen" id="projects"><u><i><b>Projects</b></i></u></h1>
+                <br> <br>
+            <section id="projectSection">
+                <div class="card" style="width: 18rem; margin: 30px;">
+                    <img class="card-img-top" src="images/sortView.png" alt="Sort-view Screenshot">
+                    <div class="card-body">
+                      <h5 class="card-title">Sort-View</h5>
+                      <p class="card-text">A Sorting Visualizer that displays working of sorting algorithms like Bubble Sort, Merge Sort and many more</p>
+                      <a href="https://adarshsharadpandey.github.io/SortView/" class="btn btn-primary">Open Sort-View</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem; margin: 30px;">
+                    <img class="card-img-top" src="images/tempPeek.png" alt="Temp peek Screenshot">
+                    <div class="card-body">
+                      <h5 class="card-title">Temp-Peek</h5>
+                      <p class="card-text">A web app that tells Temperature, Wind speed and Weather Conditions of any City by taking the City Name</p>
+                      <a href="https://adarshsharadpandey.github.io/Temp-Peek/" class="btn btn-primary">Open Temp-Peek</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem; margin: 30px;">
+                    <img class="card-img-top" src="images/RestaurantWebsite.png" alt="Restaurant WebSite Screenshot">
+                    <div class="card-body">
+                      <h5 class="card-title">Restaurant Website</h5>
+                      <p class="card-text">Website Design for a Restaurant with Menu, Costumer Ratings and a lot more</p>
+                      <a href="https://adarshsharadpandey.github.io/RestaurantWebSite/" class="btn btn-primary">Open Restaurant WebSite</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem; margin: 30px;">
+                    <img class="card-img-top" src="images/SimonGame.png" alt="Siman Game Screenshot">
+                    <div class="card-body">
+                      <h5 class="card-title">Simon Game</h5>
+                      <p class="card-text">A challanging mind puzzle that can help in boosting Memory as you have to remember patterns in it.</p>
+                      <a href="https://adarshsharadpandey.github.io/SimonGame/" class="btn btn-primary">Open Simon Game</a>
+                    </div>
+                </div>
+            </section>
+            <h1 class="cen" id="skills"><u><i><b>Skills</b></i></u></h1>
+            <br> <br>></h1>
+            <section class="skillSection">
+                <div class="card" style="width: 15rem; margin: 50px;">
+                    <img class="card-img-top" src="images/html5.jpg" alt="HTML image">
+                    <div class="card-body">
+                      <h6 class="card-title">HTML5</h6>
+                    </div>
+                </div>
+                <div class="card" style="width: 15rem; margin: 50px;">
+                    <img class="card-img-top" src="images/css3.jpg" alt="CSS image">
+                    <div class="card-body">
+                      <h6 class="card-title">CSS3</h6>
+                    </div>
+                </div>
+                <div class="card" style="width: 15rem; margin: 50px;">
+                    <img class="card-img-top" src="images/javascript.png" alt="JavaScript Image">
+                    <div class="card-body">
+                      <h6 class="card-title">JavaScript</h6>
+                    </div>
+                </div>
+                <div class="card" style="width: 15rem; margin: 50px;">
+                    <img class="card-img-top" src="images/Bootstrap4.jpg" alt="Bootstrap Image">
+                    <div class="card-body">
+                      <h6 class="card-title">Bootstrap5</h6>
+                    </div>
+                </div>
+            </section>
+            <section class="skillSection">
+                <div class="card" style="width: 15rem; margin: 50px;">
+                    <img class="card-img-top" src="images/react.png" alt="ReactJs image">
+                    <div class="card-body">
+                      <h6 class="card-title">React.js</h6>
+                    </div>
+                </div>
+                <div class="card" style="width: 15rem; margin: 50px;">
+                    <img class="card-img-top" src="images/Node.png" alt="NodeJS Image">
+                    <div class="card-body">
+                      <h6 class="card-title">Node.js</h6>
+                    </div>
+                </div>
+                <div class="card" style="width: 15rem; margin: 50px;">
+                    <img class="card-img-top" src="images/express.jpg" alt="Express Image">
+                    <div class="card-body">
+                      <p style="font-size: 6;" class="card-title">Express.js</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 15rem; margin: 50px;">
+                    <img class="card-img-top" src="images/sql.png" alt="SQL Image">
+                    <div class="card-body">
+                      <p style="font-size: 6;" class="card-title">SQL</p>
+                    </div>
+                </div>
+            </section>
+            <section class="skillSection">
+                <div class="card" style="width: 15rem; margin: 50px;">
+                    <img class="card-img-top" src="images/Git.png" alt="Git Image">
+                    <div class="card-body">
+                      <h6 class="card-title">Git</h6>
+                    </div>
+                </div>
+                <div class="card" style="width: 15rem; margin: 50px;">
+                    <img class="card-img-top" src="images/github.png" alt="Github Image">
+                    <div class="card-body">
+                      <h6 class="card-title">Github</h6>
+                    </div>
+                </div>
+                <div class="card" style="width: 15rem; margin: 50px;">
+                    <img class="card-img-top" src="images/c++.jpg" alt="C++ Image">
+                    <div class="card-body">
+                      <h6 class="card-title">C/C++</h6>
+                    </div>
+                </div>
+                <div class="card" style="width: 15rem; margin: 50px;">
+                    <img class="card-img-top" src="images/dsa.jpg" alt="Bootstrap Image">
+                    <div class="card-body">
+                      <p class="card-title">Data Structures & Algorithms</p>
+                    </div>
+                </div>
+            </section>
+            <section class="skillSection">
+                <div class="card" style="width: 15rem; margin: 50px;">
+                    <img class="card-img-top" src="images/dbms.jpg" alt="DataBase Management System Image">
+                    <div class="card-body">
+                      <h6 class="card-title">DataBase Management System</h6>
+                    </div>
+                </div>
+                <div class="card" style="width: 15rem; margin: 50px;">
+                    <img class="card-img-top" src="images/cn.jpg" alt="Conputer Networks Image">
+                    <div class="card-body">
+                      <h6 class="card-title">Computer Networking</h6>
+                    </div>
+                </div>
+                <div class="card" style="width: 15rem; margin: 50px;">
+                    <img class="card-img-top" src="images/os.png" alt="Operating System image">
+                    <div class="card-body">
+                      <h6 class="card-title">Operating Systems</h6>
+                    </div>
+                </div>
+                <div class="card" style="width: 15rem; margin: 50px;">
+                    <img class="card-img-top" src="images/oops.png" alt="OOPS image">
+                    <div class="card-body">
+                      <h6 class="card-title">Object Oriented Programming</h6>
+                    </div>
+                </div>
+            </section>
+            <h1 class="cen" id="education"><u><i><b>Education</b></i></u></h1>
+            <section class="skillSection">
+                <div class="card mb-3" style="max-width: 80%; background-color: rgb(156, 156, 240);  margin: 30px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="images/glb.jpg" class="img-fluid rounded-start" alt="GL Bajaj Image">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">B Tech in Computer Science Engineering</h5>
+                          <p class="card-text">GL Bajaj Institute of Technology & Management</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 80%; background-color: rgb(156, 156, 240);  margin: 30px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="images/sgvm.jpg" class="img-fluid rounded-start" alt="SGVM Image">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">12th with Physics, Chemistry, Maths</h5>
+                          <p class="card-text">Shiv Ganga Vidya Mandir (CBSE), Prayagraj</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </section>
+        </main> 
+        <footer id="ftr">
+            <div class="footer">
+                <div class="footer-first">
+                    <h3>Adarsh Sharad Pandey's Portfolio</h3>
+                    <p>Thanks for visiting my portfolio WebSite.<br> Connect to me on Socials</p>
+                </div>
+                <div class="footer-second">
+                    <ul>
+                        <li><h6>Sections</h6></li>
+                        <li><a href="#first">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#education">Education</a></li>
+                    </ul>
+                </div>
+                <div class="footer-second">
+                    <ul>
+                        <li><h6>Coding Profiles</h6></li>
+                        <li><a href="https://auth.geeksforgeeks.org/user/adarshsharadpandey23/practice">GeeksforGeeks</a></li>
+                        <li><a href="https://leetcode.com/adarshsharadpandey23/">Leetcode</a></li>
+                        <li><a href="https://github.com/AdarshSharadPandey">Github</a></li>
+                        <li><a href="https://www.codingninjas.com/studio/profile/adarshSharad">CodeStudio</a></li>
+                        <li><a href="https://www.codechef.com/users/adarsh_sha_pan">Codechef</a></li>
+                    </ul>
+                </div>
+                <div class="footer-second">
+                    <ul>
+                        <li><h3>Connect</h3></li>
+                        <li><h6>Phone: +91 7080482353</h6></li>
+                        <li><h6>Email: adarshsharadpandey23@gmail.com</h6></li>
+                        <li><h6>LinkedIn: <a href="https://www.linkedin.com/in/adarsh-sharad-pandey-6207b7208/">Adarsh Sharad Pandey</a></h6></li>
+                    </ul>
+                </div>
+            </div>
+            <div style="padding: 20px;">
+                <h5 style="text-align: center; color: rgb(212, 33, 212);">Designed and Devloped with &#10084 by Adarsh Sharad Pandey </h5>
+            </div>
+        </footer>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+              strings: ['<i> Programmer </i>', '<i>Web Developer</i>', '<i> Software Engineer</i>'],
+              typeSpeed: 50,
+            });
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </body>
+</html> 
